@@ -1,0 +1,328 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-color {
+  color: #3a3a3a;
+}
+
+.navborder {
+  border-bottom: 1px solid #989797;
+}
+
+.effectBlue {
+  width: 280px;
+  height: 260px;
+
+  background: #3a85fc;
+  opacity: 0.25;
+  filter: blur(80px);
+  border-radius: 20px;
+}
+.effectGreen {
+  width: 280px;
+  height: 260px;
+
+  background: #23f7aa;
+  opacity: 0.25;
+  filter: blur(80px);
+  border-radius: 20px;
+}
+.effectYellow {
+  width: 280px;
+  height: 260px;
+
+  background: #f7931a;
+  opacity: 0.25;
+  filter: blur(80px);
+  border-radius: 20px;
+}
+.effectPurple {
+  width: 280px;
+  height: 260px;
+
+  background: #68477b;
+  opacity: 0.5;
+  filter: blur(80px);
+  border-radius: 20px;
+}
+
+.effectArrowDown {
+  width: 1330px;
+  height: 131px;
+
+  background: #3a85fc;
+  opacity: 0.25;
+  filter: blur(36px);
+  border-radius: 25px;
+}
+.leftBlurBlue {
+  width: 500px;
+  height: 1876px;
+  /* margin-left: -1500px; */
+  margin-top: 100px;
+  background: #448cfd;
+  opacity: 0.25;
+  filter: blur(250px);
+}
+.leftBlurBluemobile {
+  width: 368px;
+  height: 1876px;
+  /* margin-left: -1500px; */
+  margin-top: 100px;
+  background: #448cfd;
+  opacity: 0.25;
+  filter: blur(250px);
+}
+.rightBlurPurple {
+  position: absolute;
+  width: 963px;
+  height: 886px;
+  margin-left: 350px;
+  margin-top: 450px;
+
+  background: #b264e1;
+  opacity: 0.5;
+  filter: blur(400px);
+}
+.rightBlurPurplemobile {
+  position: absolute;
+  width: 371px;
+  height: 886px;
+  margin-top: 450px;
+
+  background: #b264e1;
+  opacity: 0.5;
+  filter: blur(400px);
+}
+
+
+.trasparentBack {
+  width: 1200px;
+  height: 2076px;
+  margin-left: 70px;
+  margin-top: 100px;
+
+  /* background: rgba(236, 238, 243, 0.4);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  /* border-radius: 25px; */
+}
+.mobiletrasparentBack {
+  width: 331px;
+  height: 1182px;
+  margin-left: 38px;
+  margin-top: 100px;
+
+  /* background: rgba(236, 238, 243, 0.4);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  /* border-radius: 25px; */
+}
+
+.family {
+  font-family: Gotham;
+}
+
+.secondFamily {
+  font-family: Poppins;
+}
+
+ul {
+  list-style: none;
+  margin: 15px;
+  padding: 0;
+
+  content: "";
+  display: inline-block;
+  width: 2px;
+  background: #8fa0b9;
+  left: 400px;
+  height: calc(100% - 15px);
+}
+
+li {
+  padding-left: 8px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background: #c4c4c4;
+  left: -3px;
+  border-radius: 10px;
+}
+
+.graph {
+  background: linear-gradient(
+    90deg,
+    #49b659 0.06%,
+    #5ec56d 57.64%,
+    #23f7aa 100.07%
+  );
+}
+
+.bitCoin {
+  margin-left: -20px;
+  margin-top: -17px;
+}
+
+.fundamentalSecrets {
+  width: 1300px;
+  height: 800px;
+  top: 2368px;
+  background-image: url(./bg.png);
+  filter: blur(100px);
+}
+
+.fundamentalSecretsmobile {
+  width: 372px;
+  height: 1571px;
+  top: 2044px;
+  background-image: url(./bg.png);
+  filter: blur(100px);
+}
+
+
+.footercolor {
+  color: #10f1ff;
+}
+
+.gradient {
+  background: linear-gradient(140.57deg, #b264e1 8.37%, #448cfd 73.43%);
+}
+
+.buttoncolor {
+  background: linear-gradient(
+    164.9deg,
+    #666666 8.59%,
+    #7f7f7f 58.38%,
+    #b1b1b1 95.08%
+  );
+  opacity: 0.5;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .navBoarhide {
+    display: none;
+  }
+}
+@media screen and (max-width: 1027px) {
+  .navBarhide {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .itemshide {
+    display: none;
+  }
+}
+@media screen and (max-width: 786px) {
+  .buttonhide {
+    border-top-style: solid;
+    border-bottom-style: solid;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tablettrasparentBack {
+    width: 680px;
+    height: 1182px;
+    margin-left: 38px;
+    margin-top: 100px;
+  
+    /* background: rgba(236, 238, 243, 0.4);
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+    /* border-radius: 25px; */
+  }
+  .fundamentalSecretstablet {
+    width: 768px;
+    height: 690px;
+    top: 2044px;
+    background-image: url(./bg.png);
+    filter: blur(100px);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .laptoptrasparentBack {
+    width: 905px;
+    height: 1344px;
+    margin-left: 38px;
+    margin-top: 100px;
+  
+    /* background: rgba(236, 238, 243, 0.4);
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+    /* border-radius: 25px; */
+  }
+  .fundamentalSecretslaptop {
+    width: 1024px;
+    height: 690px;
+    top: 2044px;
+    background-image: url(./bg.png);
+    filter: blur(100px);
+  }
+  .rightBlurPurplelaptop {
+    position: absolute;
+    width: 371px;
+    height: 1090px;
+    margin-left: 649px;
+    margin-top: 450px;
+  
+    background: #b264e1;
+    opacity: 0.5;
+    filter: blur(400px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .laptopOtrasparentBack {
+    width: 1300px;
+    height: 1344px;
+    margin-left: 38px;
+    margin-top: 100px;
+  
+    /* background: rgba(236, 238, 243, 0.4);
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+    /* border-radius: 25px; */
+  }
+  .fundamentalSecretslaptopO {
+    width: 1366px;
+    height: 690px;
+    top: 1839px;
+    background-image: url(./bg.png);
+    filter: blur(100px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .laptopLtrasparentBack {
+    width: 1357px;
+    height: 1344px;
+    margin-left: 38px;
+    margin-top: 100px;
+  
+    /* background: rgba(236, 238, 243, 0.4);
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+    /* border-radius: 25px; */
+  }
+  .fundamentalSecretslaptopL {
+    width: 1440px;
+    height: 690px;
+    top: 1839px;
+    background-image: url(./bg.png);
+    filter: blur(100px);
+  }
+  .rightBlurPurplelaptopL {
+    position: absolute;
+    width: 371px;
+    height: 1090px;
+    margin-left: 649px;
+    margin-top: 450px;
+  
+    background: #b264e1;
+    opacity: 0.5;
+    filter: blur(400px);
+  }
+}
